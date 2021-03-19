@@ -1,0 +1,99 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./images/Trees.jpg');
+    background-position: center; 
+    
+}
+
+
+.main_container{
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    width: 350px;
+    height: 600px;
+    background-image: url("./images/tree3.jpg");
+    background-position: center; 
+    background-color: #1f268a;
+    border: 1px solid #33333385;
+    text-align: center;
+    transition: box-shadow 1s;
+}
+.main_container:hover{
+    box-shadow: 0 0 10px 4px #353535;
+}
+
+.container{
+padding-top:50px;
+}
+.sign-container{
+    margin-bottom: 200px;
+}
+.sign{ 
+    font-family: 'Curlz MT';
+    font-size: 72px ;
+    color: #1b2d31;
+    font-weight: bold;
+}
+.input{    
+    text-align: center;
+    background-color: #d4ddf1;
+    color: #000;
+    font-size: 15px;
+    width: 80%;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    border-radius: 45px;
+    border: 1px solid #2b328b;
+    transition: color 1s , background-color 1s  , border-radius 1s;
+	outline:none;
+}
+
+.input:focus{
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+
+.btn{
+    color: #ccc;
+    background-color: #2a3085;
+    padding: 5px 80px;
+    border-radius: 45px;
+    bottom: 100px;
+    transition: background-color 1s , color 1s , box-shadow 1s;
+}
+.btn:hover{
+    
+    color: #fff;
+    background-color: #1a228d;
+    cursor: pointer;
+}
+
+.link{
+    margin-bottom: 5px;
+    color: #ccc;
+    transition: color 1s;
+}
+.link:hover{
+    color:#fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tryangle{
+    border-top: 50px solid red;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    
+
+}
